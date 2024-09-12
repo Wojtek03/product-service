@@ -20,5 +20,6 @@ public class ProductConfiguration {
     private String name;
     private BigDecimal price;
     private String value;
+    @Column(name = "type")
     private String type;
 }
