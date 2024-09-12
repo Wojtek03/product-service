@@ -1,4 +1,4 @@
-package com.wojtekbier03.product_service;
+package com.wojtekbier03.productservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
