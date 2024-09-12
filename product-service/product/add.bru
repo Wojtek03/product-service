@@ -1,0 +1,19 @@
+meta {
+  name: add
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/products
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Smartphone",
+      "price": 600.00,
+      "type": "Smartphone"
+  }
+}
