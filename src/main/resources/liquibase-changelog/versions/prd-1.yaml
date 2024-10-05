@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: 1
-      author: wojtekbier03
+      author: Wojtek03
       changes:
         - createTable:
             tableName: products
@@ -32,7 +32,7 @@ databaseChangeLog:
 
   - changeSet:
       id: 2
-      author: wojtekbier03
+      author: Wojtek03
       changes:
         - createTable:
             tableName: configurations
@@ -68,7 +68,7 @@ databaseChangeLog:
 
   - changeSet:
       id: 3
-      author: wojtekbier03
+      author: Wojtek03
       changes:
         - createTable:
             tableName: PRODUCT_CONFIGURATION
