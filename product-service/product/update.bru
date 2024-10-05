@@ -1,11 +1,20 @@
 meta {
   name: update
   type: http
-  seq: 5
+  seq: 3
 }
 
 put {
-  url: http://localhost:8080/api/products/1
-  body: none
+  url: http://localhost:8080/products/3
+  body: json
   auth: none
+}
+
+body:json {
+  {
+      "name": "Gaming Laptopd",
+      "price": 5000.0,
+      "type": "Computer"
+  }
+  
 }

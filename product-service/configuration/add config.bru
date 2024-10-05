@@ -6,6 +6,16 @@ meta {
 
 post {
   url: http://localhost:8080/configurations
-  body: none
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    "name": "Example",
+    "price": 19.99,
+    "value": "12",
+    "type": "RAM"
+  }
+  
 }
